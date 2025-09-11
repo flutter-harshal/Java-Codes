@@ -21,13 +21,13 @@ public class Arrays8 {
         }
 
         System.out.println(arr);
-//        arr.add(10);
-//        arr.add(34);
-//        System.out.println(arr);
-////        System.out.println(arr.contains(30));
-//
-//        System.out.println(arr.set(1,45));
-//
-//        System.out.println(arr);
+        arr.add(10);
+        arr.add(34);
+        System.out.println(arr);
+        System.out.println(arr.contains(30));
+
+        System.out.println(arr.set(1,45));
+
+        System.out.println(arr);
     }
 }

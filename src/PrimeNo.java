@@ -1,19 +1,23 @@
+import java.util.Scanner;
+
 public class PrimeNo {
 
     public static void main(String[] args) {
-        int N=4;
+        Scanner sc= new Scanner(System.in);
+
         int count=0;
-        for (int i = 1; i <=N; i++) {
-            if(N%i==0){
+        int num= sc.nextInt();
+
+        for(int i=1;i<=num;i++){
+            if(num%i==0){
                 count++;
             }
-
         }
-
-        if(count==2){
-            System.out.println("Prime no");
+        if (count==2){
+            System.out.println("prime no");
         }else {
             System.out.println("Not prime");
         }
+
     }
 }
