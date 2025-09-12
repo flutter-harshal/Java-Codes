@@ -13,6 +13,8 @@ public class Arraylist {
     }
 
 
+    public void add(int i) {
+    }
 }
 
 class CricPlayer{

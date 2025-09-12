@@ -22,6 +22,11 @@ public class CampareToPro {
         list.add(new Student("Shyam", 20));
         list.add(new Student("Mohan", 25));
 
+        Iterator itr= list.iterator();
+        while (itr.hasNext()){
+            System.out.println(itr.next());
+        }
+
 
         Collections.sort(list);  // uses compareTo()
 
