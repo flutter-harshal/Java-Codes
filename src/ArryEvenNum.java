@@ -13,9 +13,9 @@
 
             System.out.println("The Normal array is :" + arrayList);
             ArrayList<Integer> arrayList1 = new ArrayList<>();
-            for (int i =0;i< arrayList.size(); i++){
-                if(arrayList.get(i)%2 ==0){
-                  arrayList1.add(arrayList.get(i));
+            for (Integer integer : arrayList) {
+                if (integer % 2 == 0) {
+                    arrayList1.add(integer);
                 }
 
             }
