@@ -14,20 +14,31 @@ public class MaxNoPro {
         arrayList.add(5);
 
 
-//        int min= arrayList.get(0);
-//        for (int i=1;i<arrayList.size(); i++){
-//if(arrayList.get(i)< min){
-//    min=arrayList.get(i);
-//}
-//        }
-//        System.out.println(min);
-
-        Iterator itr = arrayList.iterator();
-        while (itr.hasNext()){
-            System.out.println(itr.next());
+        int max= arrayList.get(0);
+        for (int i=1;i<arrayList.size(); i++){
+if(arrayList.get(i)>max){
+    max=arrayList.get(i);
+}
         }
+        System.out.println(max);
 
-        int Largest = Collections.min(arrayList);
-        System.out.println(Largest);
+//        Iterator itr = arrayList.iterator();
+//        while (itr.hasNext()){
+//            System.out.println(itr.next());
+//        }
+
+        int smallest = Collections.min(arrayList);
+        System.out.println(smallest);
+
+        int min=arrayList.get(0);
+        for (int i = 1; i < arrayList.size(); i++) {
+
+            if(arrayList.get(i)<min){
+                min=arrayList.get(i);
+            }
+
+        }
+        System.out.println(min);
+
     }
 }
